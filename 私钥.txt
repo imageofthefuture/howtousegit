@@ -16,3 +16,15 @@
 6.复制，打开github，点自己头像 >> settings >> SSH and GPG keys >>New SSH key
 
 7. titile 随便写。 key里 粘贴第六步的内容；完成。 
+
+工作流（在本地）
+工作目录： 实际文件
+暂存区（Index）：缓存区，临时保存你的改动
+HEAD：指向你最后一次提交的结果
+
+
+工作目录   add ->  Index   commit ->  HEAD    push -> 远程仓库
+
+1.添加更改到  Index 
+2.提交改动到  HEAD 
+3.推送到远程仓库 
